@@ -1,0 +1,57 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "files.exclude": {
+        ".github": true,
+        "**/*.pyc": true,
+        "bazel*": true
+    },
+    "files.watcherExclude": {
+        ".github": true,
+        "bazel*": true
+    },
+    "python.venvFolders": [
+        "venv"
+    ],
+    "python.venvPath": "~/myvirtualenvs",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "python.pythonPath": "~/venv/local/bin/python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=W293"
+    ],
+    "python.showStartPage": false,
+    "editor.detectIndentation": false,
+    "editor.fontSize": 18,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "files.associations": {
+        "*.sql": "jinja-sql"
+    },
+    "explorer.confirmDelete": false,
+    "python.defaultInterpreterPath": "~/venv/bin/python",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.fontFamily": "'Source Code Pro', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "python.testing.pytestPath": "",
+    "python.testing.pytestEnabled": true,
+    "workbench.colorTheme": "Andromeda Italic",
+    "explorer.excludeGitIgnore": true,
+    "files.insertFinalNewline": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "isort.interpreter": [
+        "/home/rahul/myvirtualenvs/p3venv/bin/python"
+    ]
+}
